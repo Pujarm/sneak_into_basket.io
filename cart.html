@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/cart.css">
+</head>
+<body>
+    <header><h1>Cart</h1></header>
+    <div class="offer-tag">
+        <p>Double Offer!</p>
+    </div>
+    <div class="cart-item-wrap">
+        <div class="primary-item-wrap">
+            <div class="p-display">
+                <img class="p-img" src="./assets/img/p1.jpg" alt="">
+            </div>
+            <div class="desc">
+                <h1 id="p-name" class="p-name">Green Lantern</h1>
+                <p id="p-price" class="price">100</p>
+            </div>
+        </div>
+        <div class="second-item-wrap">
+            <div class="s-display">
+                <img class="s-img" src="./assets/img/p2.jpg" alt="">
+            </div>
+            <div class="desc">
+                <h1 id="s-name" class="s-name">Green Lantern</h1>
+                <p id="s-price" class="price">100</p>
+            </div>
+            
+        </div>
+    </div>
+    <div class="button-wrap">
+        <div class="btn-desc">
+            <p>Offer Price Including Both Items: $<span id="offer">500</span></p>
+            <button class="btn btn-purple" onclick="submit()">Pay Now</button>
+        </div>
+        <button class="btn btn-red"  onclick="submit()">Cancel</button>
+    </div>
+    <script src="./assets/js/cart.js"></script>
+</body>
+</html>
